@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Dash Test</title>
+    <script src="http://cdn.dashjs.org/v3.1.0/dash.all.min.js"></script>
+    <style>
+        .video-element {
+         width: 300px;
+        }
+    </style>
+</head>
+<body>
+
+
+<div>
+    <video class="video-element" poster="http://mediapm.edgesuite.net/will/dash/temp/poster.png" controls="true">
+        <!--    <source src="https://dash.akamaized.net/akamai/bbb_30fps/bbb_30fps.mpd" type="application/dash+xml">-->
+        <source src="http://localhost:4500/proxy-video/bbb_30fps/bbb_30fps.mpd" type="application/dash+xml">
+    </video>
+</div>
+
+</body>
+</html>
